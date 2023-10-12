@@ -37,9 +37,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
-                            <h3 class="hello">Hello<span class="name">Tran Son Hoang</span></h3>
+                            <h3 class="hello">Hello, My name is<span class="name">Tran Son Hoang</span></h3>
                             <h3 class="my-profession">I'm a <span class="typing">web developer</span></h3>
-                            <p class="typing-text">I'm currently a third-year student at Ho Chi Minh City University of Technology and Education. This is my portfolio website. Thank you for visiting.</p>
+                            <p class="typing-text"></p>
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
                         <div class="home-img padd-15">
@@ -378,22 +378,6 @@
         </div>
         <!-- ===== Main content End ===== -->
     </div>
-    <script>
-        const text = "I'm currently a third-year student at Ho Chi Minh City University of Technology and Education. This is my portfolio website. Thank you for visiting.";
-        let charIndex = 0;
-        const typingText = document.querySelector(".typing-text");
-
-        function type() {
-          if (charIndex < text.length) {
-            typingText.textContent += text.charAt(charIndex);
-            charIndex++;
-            setTimeout(type, 50); // Adjust typing speed (in milliseconds)
-          }
-        }
-
-        type(); // Start the typing animation
-    </script>
-
     <!-- ===== Main Container End ===== -->
     <!-- ===== Style Switcher Start ===== -->
     <div class="style-switcher">
@@ -403,7 +387,7 @@
     </div>
 
     <!-- ===== Style Switcher End ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
-
 </body>
 </html>
