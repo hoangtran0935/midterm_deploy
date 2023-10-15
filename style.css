@@ -626,6 +626,7 @@ h3.my-profession
 .portfolio .portfolio-item-inner .portfolio-img img
 {
     width: 100%;
+    height: 250px;
     display: block;
 }
 /*contact*/
